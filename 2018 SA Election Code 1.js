@@ -83,8 +83,8 @@ campaignTrail_temp.election_json = [
         "fields": {
             "year": 2016,
             "display_year": "2018 - South Australia",
-            "summary": "<div style='overflow-y:scroll;height:200px;'><p>It has been 14 Years of Labor Party rule in South Australia, as the political landscape of the state is rapidly shifting and the people are looking for a change of direction for the state. With issues surrounding Jobs, a broken Health System, and Government Integrity, the people of South Australia are looking for change.</p><p><ul><li>South Australian Labor lead by Premier Jay Weatherill are looking for a way to be re-elected, promoting Government achievements whilst defending off constant attacks.</li><li>The Liberal Party of South Australia lead by Opposition Leader Steven Marshall is looking to change the direction of the state, promoting new prosperity for the state.</li><li> Nick Xenephon's SA Best is entering the frame as an alternative to the major parties, and is looking to score big and hold both parties accountable in the State Parliament.</li></ul><p>The Election is a decisive make or break for the major parties and the future of the state.</p></div>",
-            "image_url": "https://i.imgur.com/hNcSgSY.png",
+            "summary": "<div style='overflow-y:scroll;height:200px;'><p>It has been 16 Years of Labor Party rule in South Australia since their election in 2002, as the political landscape of the state is rapidly shifting and the people are looking for a change of direction. With issues surrounding Jobs, a broken Health System, and Government Integrity, the people of South Australia are looking for change.</p><p><ul><li>South Australian Labor lead by Premier Jay Weatherill are looking for a way to be re-elected, promoting Government achievements whilst defending off constant attacks.</li><li>The Liberal Party of South Australia lead by Opposition Leader Steven Marshall is looking to change the direction of the state, promoting new prosperity for the state.</li><li> Nick Xenephon's SA Best is entering the frame as an alternative to the major parties, and is looking to score big and hold both parties accountable in the State Parliament.</li></ul><p>The Election is a decisive make or break for the major parties and the future of the state.</p></div>",
+            "image_url": "https://i.guim.co.uk/img/media/30cf094ebf2c75d402f7499b524f6bab85942e28/0_32_3000_1800/master/3000.jpg?width=1200&quality=85&auto=format&fit=max&s=892bc0dcd3dd807f09bd594c629912bb",
             "winning_electoral_vote_number": 24,
             "advisor_url": "123",
             "recommended_reading": "<ul>\n<li><a href=https://www.chicagotribune.com/opinion/editorials/ct-edit-chicago-tribune-biden-endorsement-20200925-lnyxsb5qvrftnjjmj3rnzj33jy-story.html>Our Case For Joe Biden</a></li>\n<li><a href=https://nationalinterest.org/feature/case-trump-166808>The Case For Trump</a></li>\n<li><a href=https://www.npr.org/2020/11/18/935730100/how-biden-won-ramping-up-the-base-and-expanding-margins-in-the-suburbs>How Biden Won: Ramping Up The Base And Expanding Margins In The Suburbs</a></li>\n<li><a href=https://www.prospectmagazine.co.uk/politics/donald-trump-joe-biden-us-election-almost-win-votes-concede>Why Did Trump Almost Win?</a></li>\n<li><a href=https://www.hoover.org/research/no-evidence-voter-fraud-guide-statistical-claims-about-2020-election>No Evidence For Voter Fraud: A Guide To Statistical Claims About The 2020 Election</a></li>\n</ul>",
@@ -172,7 +172,7 @@ campaignTrail_temp.candidate_json = [
             "electoral_victory_message": "This guy wins!",
             "electoral_loss_message": "This guy loses!",
             "no_electoral_majority_message": "We all win?",
-            "description_as_running_mate": "<p>Steven Marshall serves as the incumbent opposition leader of South Australia, seeking to re-challenge the incumbent Labor Government in a repeat of the 2014 State Election. Marshall had previously served as Deputy Opposition leader after the 2010 State Election before accending to the leadership of the State Liberal Party.</p><p>Marshall won't give up on persuing the top job to lead the state after a close loss against the State Labor Party in 2014, resulting in a hung parliament. With holding the Government to account, Marshall may find an easy path to Government thanks to a redistribution effort in 2016 with the Liberals ahead in key seats. However, despite this, Marshall needs to hold his ground against competing competition as Nick Xenephon's SA Best target's key Liberal seats in and around the Metropolitan Adelaide area that Marshall's party holds.</p>",
+            "description_as_running_mate": "<p>Steven Marshall serves as the incumbent opposition leader of South Australia, seeking to re-challenge the incumbent Labor Government in a repeat of the 2014 State Election. Marshall had previously served as Deputy Opposition leader after the 2010 State Election before accending to the leadership of the State Liberal Party.</p><p>Marshall won't give up on persuing the top job to lead the state after a close loss against the State Labor Party in 2014, resulting in a hung parliament. With holding the Government to account, Marshall may find an easy path to Government thanks to a redistribution effort in 2016 with the Liberals ahead in key seats. However, despite this, Marshall needs to hold his ground against competing competition as Nick Xenephon's SA Best target's key Liberal seats in and around the Metropolitan Adelaide area that the Liberals hold</p>",
             "candidate_score": 1,
             "running_mate": true
         }
@@ -326,7 +326,7 @@ jet_data = {
     "headerColor": "#d8ad4f",
     "windowColor": "#3d406c",
     "containerColor": "#be5b5b",
-    "innerWindowColor": "#d8ad4f",
+    "innerWindowColor": "#3d406c",
     "bannerImageUrl": "https://jetsimon.com/public/placeholderbanner.png",
     "backgroundImageUrl": "https://thepropertytribune.com.au/wp-content/uploads/2021/06/adelaide-skyline.jpg",
     "endingTextColor": "#000000",
@@ -341,6 +341,6 @@ $("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selected
 $(".container")[0].style.backgroundColor = "#be5b5b";
 document.getElementById("header").src = "https://jetsimon.com/public/placeholderbanner.png";
 document.body.background = "https://thepropertytribune.com.au/wp-content/uploads/2021/06/adelaide-skyline.jpg";
-document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#d8ad4f!important;}</style>";
+document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#3d406c!important;}</style>";
 
 //#endcode
