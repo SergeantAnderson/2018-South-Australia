@@ -101,7 +101,7 @@ campaignTrail_temp.answers_json = [
              "feedback": "Steven Marshall labels this a political play to save your 'dying Government.' The front page of <i>The Advertiser</i> even re-inforces the message of the Government slowly slipping into the political wilderness.",
              "global_effect": [201, -0.001], // format: [candidate pk, amount of global effect]
              "issue_effect": [103, 0.004, 0.03], // format: [issue, issue score, issue importance]
-             "description": "We need to keep to bread and butter basics if we want to score another term in office. Keep growing the economy and put more investments into our public system. We got to keep light on our feet and not get swept away. The people of SOuth Australia will see in the next 2 years we will put in more effort to deliver for them."
+             "description": "We need to keep to bread and butter basics if we want to score another term in office. Keep growing the economy and put more investments into our public system. We got to keep light on our feet and not get swept away. The people of South Australia will see in the next 2 years we will put in more effort to deliver for them."
            }
          },
 
