@@ -83,8 +83,8 @@ campaignTrail_temp.election_json = [
         "fields": {
             "year": 2016,
             "display_year": "2018 - South Australia",
-            "summary": "<div style='overflow-y:scroll;height:200px;'><p>It has been 16 Years of Labor Party rule in South Australia since their election in 2002, as the political landscape of the state is rapidly shifting and the people are looking for a change of direction. With issues surrounding Jobs, a broken Health System, and Government Integrity, the people of South Australia are looking for change.</p><p><ul><li>South Australian Labor lead by Premier Jay Weatherill are looking for a way to be re-elected, promoting Government achievements whilst defending off constant attacks.</li><li>The Liberal Party of South Australia lead by Opposition Leader Steven Marshall is looking to change the direction of the state, promoting new prosperity for the state.</li><li> Nick Xenephon's SA Best is entering the frame as an alternative to the major parties, and is looking to score big and hold both parties accountable in the State Parliament.</li></ul><p>The Election is a decisive make or break for the major parties and the future of the state.</p></div>",
-            "image_url": "https://i.guim.co.uk/img/media/30cf094ebf2c75d402f7499b524f6bab85942e28/0_32_3000_1800/master/3000.jpg?width=1200&quality=85&auto=format&fit=max&s=892bc0dcd3dd807f09bd594c629912bb",
+            "summary": "<div style='overflow-y:scroll;height:200px;'><p>It has been 14 Years of Labor Party rule in South Australia, as the political landscape of the state is rapidly shifting and the people are looking for a change of direction for the state. With issues surrounding Jobs, a broken Health System, and Government Integrity, the people of South Australia are looking for change.</p><p><ul><li>South Australian Labor lead by Premier Jay Weatherill are looking for a way to be re-elected, promoting Government achievements whilst defending off constant attacks.</li><li>The Liberal Party of South Australia lead by Opposition Leader Steven Marshall is looking to change the direction of the state, promoting new prosperity for the state.</li><li> Nick Xenephon's SA Best is entering the frame as an alternative to the major parties, and is looking to score big and hold both parties accountable in the State Parliament.</li></ul><p>The Election is a decisive make or break for the major parties and the future of the state.</p></div>",
+            "image_url": "https://i.imgur.com/hNcSgSY.png",
             "winning_electoral_vote_number": 24,
             "advisor_url": "123",
             "recommended_reading": "<ul>\n<li><a href=https://www.chicagotribune.com/opinion/editorials/ct-edit-chicago-tribune-biden-endorsement-20200925-lnyxsb5qvrftnjjmj3rnzj33jy-story.html>Our Case For Joe Biden</a></li>\n<li><a href=https://nationalinterest.org/feature/case-trump-166808>The Case For Trump</a></li>\n<li><a href=https://www.npr.org/2020/11/18/935730100/how-biden-won-ramping-up-the-base-and-expanding-margins-in-the-suburbs>How Biden Won: Ramping Up The Base And Expanding Margins In The Suburbs</a></li>\n<li><a href=https://www.prospectmagazine.co.uk/politics/donald-trump-joe-biden-us-election-almost-win-votes-concede>Why Did Trump Almost Win?</a></li>\n<li><a href=https://www.hoover.org/research/no-evidence-voter-fraud-guide-statistical-claims-about-2020-election>No Evidence For Voter Fraud: A Guide To Statistical Claims About The 2020 Election</a></li>\n</ul>",
@@ -168,11 +168,11 @@ campaignTrail_temp.candidate_json = [
             "color_hex": "#0000FF",
             "secondary_color_hex": null,
             "is_active": 0,
-            "image_url": "https://i.imgur.com/W5pPAD7.png",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Steven_Marshall_crop.jpg",
             "electoral_victory_message": "This guy wins!",
             "electoral_loss_message": "This guy loses!",
             "no_electoral_majority_message": "We all win?",
-            "description_as_running_mate": "<p>Steven Marshall serves as the incumbent opposition leader of South Australia, seeking to re-challenge the incumbent Labor Government in a repeat of the 2014 State Election. Marshall had previously served as Deputy Opposition leader after the 2010 State Election before accending to the leadership of the State Liberal Party.</p><p>Marshall won't give up on persuing the top job to lead the state after a close loss against the State Labor Party in 2014, resulting in a hung parliament. With holding the Government to account, Marshall may find an easy path to Government thanks to a redistribution effort in 2016 with the Liberals ahead in key seats. However, despite this, Marshall needs to hold his ground against competing competition as Nick Xenephon's SA Best target's key Liberal seats in and around the Metropolitan Adelaide area that the Liberals hold</p>",
+            "description_as_running_mate": "<p>Steven Marshall serves as the incumbent opposition leader of South Australia, seeking to re-challenge the incumbent Labor Government in a repeat of the 2014 State Election. Marshall had previously served as Deputy Opposition leader after the 2010 State Election before accending to the leadership of the State Liberal Party.</p><p>Marshall won't give up on persuing the top job to lead the state after a close loss against the State Labor Party in 2014, resulting in a hung parliament. With holding the Government to account, Marshall may find an easy path to Government thanks to a redistribution effort in 2016 with the Liberals ahead in key seats. However, despite this, Marshall needs to hold his ground against competing competition as Nick Xenephon's SA Best target's key Liberal seats in and around the Metropolitan Adelaide area that Marshall's party holds.</p>",
             "candidate_score": 1,
             "running_mate": true
         }
@@ -214,7 +214,7 @@ campaignTrail_temp.candidate_json = [
             "color_hex": "#b33939",
             "secondary_color_hex": null,
             "is_active": 0,
-            "image_url": "https://i.imgur.com/6382NN8.png",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Jay_Weatherill_Crop.jpg",
             "electoral_victory_message": "This guy wins!",
             "electoral_loss_message": "This guy loses!",
             "no_electoral_majority_message": "We all win?",
@@ -238,7 +238,7 @@ campaignTrail_temp.candidate_json = [
             "color_hex": "#f36e15",
             "secondary_color_hex": null,
             "is_active": 1,
-            "image_url": "https://i.imgur.com/TgYK8Zy.png",
+            "image_url": "https://i.imgur.com/Z73S4se.png",
             "electoral_victory_message": "This guy wins!",
             "electoral_loss_message": "This guy loses!",
             "no_electoral_majority_message": "We all win?",
@@ -261,13 +261,37 @@ campaignTrail_temp.candidate_json = [
             "color_hex": "#b33939",
             "secondary_color_hex": null,
             "is_active": 0,
-            "image_url": "https://i.imgur.com/063xHZM.png",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/2009_07_24_Nick_Xenophon_speaking_cropped.jpg",
             "electoral_victory_message": "This guy wins!",
             "electoral_loss_message": "This guy loses!",
             "no_electoral_majority_message": "We all win?",
             "description_as_running_mate": "<p>Nick Xenephon currently serves as one of the 12 Senator's of South Australia in the Federal Parliament. 2016 saw electoral sucess for the Nick Xenephon team, taking the Liberal stronghold seat of Mayo in the Adelaide Hills, with Rebecca Sharkie becoming the first NXT member of the Federal House of Representatives. Now the party is focusing on a more local level, with Xenephon to take the charge in the state election in order to form the crossbench and decide the Government in the event of a Hung Parliament in South Australia</p><p>Xenephon is seeking to contest the lower house seat of Hartley in Adelaide's east, held by rising Liberal star, Vincent Tarzia, a relatively safe Liberal Seat.</p><p>Under his leadership, SA Best is looking to make a reliable dent in the states parliament, and for Nick to fend off attacks from the major parties.</p>",
             "candidate_score": 1,
             "running_mate": true
+        }
+    },
+
+        {
+        "model": "campaign_trail.candidate",
+        "pk": 4001,
+        "fields": {
+            "first_name": "Independents/Others - ",
+            "last_name": "IND/OTH",
+            "election": 20,
+            "party": "",
+            "state": "",
+            "priority": 1, 
+            "description": "",
+            "color_hex": "#6b6b6b",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/Z73S4se.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
         }
     },
 ]
