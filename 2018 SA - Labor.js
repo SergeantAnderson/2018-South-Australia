@@ -9,7 +9,7 @@ e.questions_json = [
            "pk": 1000,
            "fields": { 
              "priority": 1,
-             "description": "Premier Weatherill, it is 2016. The Electoral Commission of South Australia has redrawn the map for the up-coming 2018 State Election, having the boundaries changed from the previous election. The boundaries have drawn new controversy, having now favoured the Liberals, giving them a solid lead of 25 seats in the House of Assembly if they are to win the next election. What are your thoughts on this matter?",
+             "description": "<b>DECEMBER 2016:</b> Premier Weatherill, it is 2016. The Electoral Commission of South Australia has redrawn the map for the up-coming 2018 State Election, having the boundaries changed from the previous election. The boundaries have drawn new controversy, having now favoured the Liberals, giving them a solid lead of 25 seats in the House of Assembly if they are to win the next election. What are your thoughts on this matter?",
              "likelihood": 1
            }
          },
@@ -19,7 +19,7 @@ e.questions_json = [
            "pk": 1001,
            "fields": { 
              "priority": 1,
-             "description": "The re-distribuion is filan, giving the State Liberal Opposition the advantage heading into the 2018 State Election. With only 2 years to go until polling day, there may be some time before the window closes and the people cast their decision. In the next 2 years, how will you begin to slowly re-define your Government to get re-elected and earn the trust back of the people of South Australia?",
+             "description": "<b>DECEMBER 2016:</b> The re-distribuion is final, giving the State Liberal Opposition the advantage heading into the 2018 State Election. With only 2 years to go until polling day, there may be some time before the window closes and the people cast their decision. In the next 2 years, how will you begin to slowly re-define your Government to get re-elected and earn the trust back of the people of South Australia?",
              "likelihood": 1
            }
          },
@@ -29,9 +29,9 @@ e.questions_json = [
            "pk": 1002,
            "fields": { 
              "priority": 1,
-             "description": "",
+             "description": "<b>OCTOBER 2017:</b> The 2017 State Labor Party conference is officially underway as the party faithful gather to listen, but also vote on the parties platform heading into next years State Election in March. Many are describing this as a 'cornerstone' to help elevate you to win Government once again for Labor. As you step onto the stage, what message will you deliver to the party faithful?",
              "likelihood": 1
-           }
+           } 
          },
 
          {
@@ -122,6 +122,54 @@ campaignTrail_temp.answers_json = [
            "pk": 5005,
            "fields": {
              "question": 1001,
+             "feedback": "Workers and Unions are pleased with the focus on workers rights and these new industrial laws under the new South Australian Employment Tribunal. Steven Marshall and the Liberals are eyeing it up, potentially for future privatization.",
+             "global_effect": [201, -0.001], // format: [candidate pk, amount of global effect]
+             "issue_effect": [103, 0.004, 0.03], // format: [issue, issue score, issue importance]
+             "description": "Ever since Labor entered office in 2002, we have been busy building the state and our economy. We have new industrial laws that seek to protect the workers at the worksight to settle disputes, along with sustained job growth in the state. If the Liberals and Steve Marshall get their way, the work we have done for workers in this state will be resinded if they win."
+           }
+         },
+
+         {
+           "model": "campaign_trail.answer",
+           "pk": 5006,
+           "fields": {
+             "question": 1001,
+             "feedback": "The State Liberals are pointing the finger at you for the increased cost of living over future years.",
+             "global_effect": [201, -0.001], // format: [candidate pk, amount of global effect]
+             "issue_effect": [103, 0.004, 0.03], // format: [issue, issue score, issue importance]
+             "description": "Families are feeling the pinch with the cost of living. Taxes, utilities and everyday expenses are adding up for the average person. My Government will aim to assist in driving down the cost of living at any measure to ensure that South Australians are able to afford the essentials they need."
+           }
+         },
+
+         {
+           "model": "campaign_trail.answer",
+           "pk": 5007,
+           "fields": {
+             "question": 1002,
+             "feedback": "Opposition Leader Steven Marshall has to later re-iterate that no privatisation will occur if the State Liberals win the election. Althrough, most know the Liberals record by know.",
+             "global_effect": [201, -0.001], // format: [candidate pk, amount of global effect]
+             "issue_effect": [103, 0.004, 0.03], // format: [issue, issue score, issue importance]
+             "description": "We're going on the attack. Steve Marshall and the State Liberals will privatise the important nessesities that the public rely on. From our public transport, to our hospitals, to the public service. Jobs will be lost, and the effect this will have will be handed down to the people of South Australia."
+           }
+         },
+
+         {
+           "model": "campaign_trail.answer",
+           "pk": 5008,
+           "fields": {
+             "question": 1002,
+             "feedback": "The party faithful cheer at your speech with the prospect of 'decorporatising' SA Water and Electricity. Yet these cheers, are supplemented for when Federal Opposition Leader Bill Shorten steps onto the stage, pledging $1 Billion for manufacturing if Labor wins the Federal Election next year.",
+             "global_effect": [201, -0.001], // format: [candidate pk, amount of global effect]
+             "issue_effect": [103, 0.004, 0.03], // format: [issue, issue score, issue importance]
+             "description": "Lets focus on building the state in the next 4 years. We have a vision that will seek to make South Australia a true power-house domestically. From jobs, to health, to infrastructure, and decorpporatise SA Water and Electrticity from privatization. We have the vision and the record to deliver for our state, and we will continue to strive further."
+           }
+         },
+
+         {
+           "model": "campaign_trail.answer",
+           "pk": 5009,
+           "fields": {
+             "question": 1002,
              "feedback": ".",
              "global_effect": [201, -0.001], // format: [candidate pk, amount of global effect]
              "issue_effect": [103, 0.004, 0.03], // format: [issue, issue score, issue importance]
@@ -131,15 +179,16 @@ campaignTrail_temp.answers_json = [
 
          {
            "model": "campaign_trail.answer",
-           "pk": 5006,
+           "pk": 5010,
            "fields": {
-             "question": 1001,
+             "question": 1002,
              "feedback": ".",
              "global_effect": [201, -0.001], // format: [candidate pk, amount of global effect]
              "issue_effect": [103, 0.004, 0.03], // format: [issue, issue score, issue importance]
              "description": "."
            }
          },
+    
     
 ]
 
@@ -877,7 +926,7 @@ campaignTrail_temp.issues_json = [
         "model": "campaign_trail.issue",
         "pk": 47,
         "fields": {
-            "name": "Annexation",
+            "name": "Privatizaton",
             "description": "",
             "stance_1": "Supports",
             "stance_desc_1": "",
@@ -900,7 +949,7 @@ campaignTrail_temp.issues_json = [
         "model": "campaign_trail.issue",
         "pk": 48,
         "fields": {
-            "name": "Tariffs",
+            "name": "Cost of Living",
             "description": "'",
             "stance_1": "Opposes",
             "stance_desc_1": "'",
@@ -923,7 +972,7 @@ campaignTrail_temp.issues_json = [
         "model": "campaign_trail.issue",
         "pk": 49,
         "fields": {
-            "name": "Immigration",
+            "name": "Health",
             "description": "'",
             "stance_1": "Nativist",
             "stance_desc_1": "'",
@@ -946,7 +995,7 @@ campaignTrail_temp.issues_json = [
         "model": "campaign_trail.issue",
         "pk": 50,
         "fields": {
-            "name": "Internal Improvements",
+            "name": "The Economy",
             "description": "'",
             "stance_1": "Opposes",
             "stance_desc_1": "'",
@@ -969,7 +1018,7 @@ campaignTrail_temp.issues_json = [
         "model": "campaign_trail.issue",
         "pk": 51,
         "fields": {
-            "name": "Slavery",
+            "name": "State Infrastructure",
             "description": "'",
             "stance_1": "Supports",
             "stance_desc_1": "'",
