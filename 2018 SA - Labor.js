@@ -39,7 +39,7 @@ e.questions_json = [
            "pk": 1003,
            "fields": { 
              "priority": 1,
-             "description": "",
+             "description": "This electon will not be focus around the classic Labor Versus Liberal battle like David and Goliath. Federal Senator Nick Xenephon has created the new SA Best Party, calling himself the alternative to the major parties in the state, and gaining traction among undecided voters, and eating away at the Labor base. With the party running candidates in 35 Lower House seats, what strategy will you use to combat SA Best?",
              "likelihood": 1
            }
          },
@@ -47,6 +47,16 @@ e.questions_json = [
          {
            "model": "campaign_trail.question", 
            "pk": 1004,
+           "fields": { 
+             "priority": 1,
+             "description": "State infrastructure is becoming a growing issue this state election, as many are finding current networks of roads, train and tram networks becoming slowly outdated and in need of being repaired and updated to meet current demands. If state Labor is re-elected in March, what priority will you focus on the most to improve the states lacking infraqstructure?",
+             "likelihood": 1
+           }
+         },
+
+         {
+           "model": "campaign_trail.question", 
+           "pk": 1005,
            "fields": { 
              "priority": 1,
              "description": "",
@@ -170,6 +180,66 @@ campaignTrail_temp.answers_json = [
            "pk": 5009,
            "fields": {
              "question": 1002,
+             "feedback": "Former Premier Mike Rann makes an apperance at the national conference, delivering a speech which was, while focused on the days of his Premiership, was self-centered around him, whilst focusing on you for a small, brief period of time.",
+             "global_effect": [201, -0.001], // format: [candidate pk, amount of global effect]
+             "issue_effect": [103, 0.004, 0.03], // format: [issue, issue score, issue importance]
+             "description": "Focus on the record. We will focus on what this SA Labor Government has done for the past 16 years. Since the days of Premier Mike Rann to now, we have made great strides in improving the quality of life and the cost of living in this state. We are continuing to move forward in building South Australia."
+           }
+         },
+
+         {
+           "model": "campaign_trail.answer",
+           "pk": 5010,
+           "fields": {
+             "question": 1002,
+             "feedback": "Whilst it rallies the Labor faithful, many of the undecided voters want more substance behind your words. It allows for Opposition Leader Steven Marshall to go on the attack, accusing you of being 'All words, no substance.'.",
+             "global_effect": [201, -0.001], // format: [candidate pk, amount of global effect]
+             "issue_effect": [103, 0.004, 0.03], // format: [issue, issue score, issue importance]
+             "description": "Bread and Butter Labor issues that matter to the people of South Australia is the winning key for our Government to win the next state election. We'll focus on what we will do, and keep things simple and easy for South Australians that is nothing over the top."
+           }
+         },
+
+         {
+           "model": "campaign_trail.answer",
+           "pk": 5011,
+           "fields": {
+             "question": 1003,
+             "feedback": "Nick Xenephon continues his charade of dancing across the Metropolitan area with local candidates, having sticking it to you and Steven Marshall. Most in the area are leaning towards SA Best, but Labor candidates stand by to defend the record.",
+             "global_effect": [201, -0.001], // format: [candidate pk, amount of global effect]
+             "issue_effect": [103, 0.004, 0.03], // format: [issue, issue score, issue importance]
+             "description": "It is concerning that SA Best is gaining traction across our voter base, and in seats that we hold by a good margin, especially up in the northern suburbs. We need to focus on bread and butter issues that matter to working and middle class voters in those districts there to earn there trust back."
+           }
+         },
+
+         {
+           "model": "campaign_trail.answer",
+           "pk": 5012,
+           "fields": {
+             "question": 1003,
+             "feedback": "Nick Xenephon hits back at you, labelling you 'out of touch' to the people of the State. Xenephon's party makes traction across the northern seats such as Playford and even Port Adelaide.",
+             "global_effect": [201, -0.001], // format: [candidate pk, amount of global effect]
+             "issue_effect": [103, 0.004, 0.03], // format: [issue, issue score, issue importance]
+             "description": "A vote fro SA Best is a vote for Steven Marshall and the Liberals who will privatise and sell off the assets of the state, and run back the progress our Government has made for the past 16 years. We must continue making the effort to bring back the trust of the people. Xenephon plays the political game for his own purposes."
+           }
+         },
+
+         {
+           "model": "campaign_trail.answer",
+           "pk": 5013,
+           "fields": {
+             "question": 1003,
+             "feedback": "The media acknowledges it is a 3-way race to Govern South Australia, which is set to be the closest in the states history. In addition, campaign advisors warn that too much strain may tear away at the fibres of Labor's campaign if stretched our too thin.",
+             "global_effect": [201, -0.001], // format: [candidate pk, amount of global effect]
+             "issue_effect": [103, 0.004, 0.03], // format: [issue, issue score, issue importance]
+             "description": "We'll need to focus on both SA Best and the Liberals. This will be a three-way race this state election, and we must put all our effort in if we are to win. Every seat is in play this election and I have every confidence that Labor's candidates and volunteers will do the work to win for our party."
+           }
+         },
+
+         {
+           "model": "campaign_trail.answer",
+           "pk": 5014,
+           "fields": {
+             "question": 1004,
              "feedback": ".",
              "global_effect": [201, -0.001], // format: [candidate pk, amount of global effect]
              "issue_effect": [103, 0.004, 0.03], // format: [issue, issue score, issue importance]
@@ -179,9 +249,33 @@ campaignTrail_temp.answers_json = [
 
          {
            "model": "campaign_trail.answer",
-           "pk": 5010,
+           "pk": 5015,
            "fields": {
-             "question": 1002,
+             "question": 1004,
+             "feedback": ".",
+             "global_effect": [201, -0.001], // format: [candidate pk, amount of global effect]
+             "issue_effect": [103, 0.004, 0.03], // format: [issue, issue score, issue importance]
+             "description": "."
+           }
+         },
+
+         {
+           "model": "campaign_trail.answer",
+           "pk": 5016,
+           "fields": {
+             "question": 1004,
+             "feedback": ".",
+             "global_effect": [201, -0.001], // format: [candidate pk, amount of global effect]
+             "issue_effect": [103, 0.004, 0.03], // format: [issue, issue score, issue importance]
+             "description": "."
+           }
+         },
+
+         {
+           "model": "campaign_trail.answer",
+           "pk": 5017,
+           "fields": {
+             "question": 1004,
              "feedback": ".",
              "global_effect": [201, -0.001], // format: [candidate pk, amount of global effect]
              "issue_effect": [103, 0.004, 0.03], // format: [issue, issue score, issue importance]
@@ -191,6 +285,9 @@ campaignTrail_temp.answers_json = [
     
     
 ]
+
+
+
 
 
 campaignTrail_temp.candidate_image_url = 'https://saliberal.org.au/images/site_labourpolicies/Square-Lockup-CMYK.jpg';
@@ -928,19 +1025,19 @@ campaignTrail_temp.issues_json = [
         "fields": {
             "name": "Privatizaton",
             "description": "",
-            "stance_1": "Supports",
+            "stance_1": "Privatse all assets",
             "stance_desc_1": "",
-            "stance_2": "Supports",
+            "stance_2": "Moderate Privatising",
             "stance_desc_2": "",
-            "stance_3": "Supports",
+            "stance_3": "Not everything",
             "stance_desc_3": "",
-            "stance_4": "Moderate",
+            "stance_4": "Indifferent",
             "stance_desc_4": "",
-            "stance_5": "Opposes",
+            "stance_5": "Opposses",
             "stance_desc_5": "",
-            "stance_6": "Opposes",
+            "stance_6": "Strongly Opposses",
             "stance_desc_6": "",
-            "stance_7": "Opposes",
+            "stance_7": "State Owned Assests",
             "stance_desc_7": "",
             "election": 13
         }
@@ -972,7 +1069,7 @@ campaignTrail_temp.issues_json = [
         "model": "campaign_trail.issue",
         "pk": 49,
         "fields": {
-            "name": "Health",
+            "name": "Health and Education",
             "description": "'",
             "stance_1": "Nativist",
             "stance_desc_1": "'",
