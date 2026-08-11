@@ -49,7 +49,7 @@ e.questions_json = [
            "pk": 1004,
            "fields": { 
              "priority": 1,
-             "description": "State infrastructure is becoming a growing issue this state election, as many are finding current networks of roads, train and tram networks becoming slowly outdated and in need of being repaired and updated to meet current demands. If state Labor is re-elected in March, what priority will you focus on the most to improve the states lacking infraqstructure?",
+             "description": "Recently, it was announced that your campaign would undertake in a $2 Billion State infrastructure Spending boom, as it is becoming a growing issue this state election. Roads, train and tram networks becoming slowly outdated and in need of being repaired and updated to meet current demands. If state Labor is re-elected in March, what priority will you focus on the most to improve the states lacking infrastructure?",
              "likelihood": 1
            }
          },
@@ -57,6 +57,56 @@ e.questions_json = [
          {
            "model": "campaign_trail.question", 
            "pk": 1005,
+           "fields": { 
+             "priority": 1,
+             "description": "The State has had record unemployment figures which have come in from the Australian Bureau of Statistics jobs figures, with 5.9% of the state without a job. The Opposition has attacked the Government for not doing further to address the on-going job shortage amongst the cost of living crisis in which the State is going through. How will the Government continue to sell it's economic vision?",
+             "likelihood": 1
+           }
+         },
+
+         {
+           "model": "campaign_trail.question", 
+           "pk": 1006,
+           "fields": { 
+             "priority": 1,
+             "description": "The 2016 state blackout continues to raise questions over the States Energy Policy, and directions as to where the state should go. Many are calling for additional investments to Green and Solar Energy, with others backing and firing up coal powered stations to keep the states lights on as power prices continue to soar in the state, with a decline potentially on the horizon. How should the Government address concerns?",
+             "likelihood": 1
+           }
+         },
+
+         {
+           "model": "campaign_trail.question", 
+           "pk": 1007,
+           "fields": { 
+             "priority": 1,
+             "description": "Unemployment figures still continue to dominate the campaign, as future figures and trajectories for the state look to be in dire straits for the Job Market, despite current pledges to advance the state in job creation how will the Government properly address the unemolpyment rate and what strategies will be in place?",
+             "likelihood": 1
+           }
+         },
+
+         {
+           "model": "campaign_trail.question", 
+           "pk": 1008,
+           "fields": { 
+             "priority": 1,
+             "description": "Concern has risen over the rise of younger people leaving the state of South Australia as the state faces an ageing population issue. The Opposition and SA Best are criticising the Government over not doing enugh to address the issue of the exodus of younger South Australians to other states in the nation. How will your State Government respond?",
+             "likelihood": 1
+           }
+         },
+
+         {
+           "model": "campaign_trail.question", 
+           "pk": 1009,
+           "fields": { 
+             "priority": 1,
+             "description": "The State is currently going through a crisis within the South Australian Health System. Operations around the new Royal Adelaide Hospital, and the GOvernments record on closing the REPAT at the Lyall McEwen Hospital has put your Government under pressure on Health as both the Liberals and SA Best grill your record. How will you focus on getting the States health back on track?",
+             "likelihood": 1
+           }
+         },
+
+         {
+           "model": "campaign_trail.question", 
+           "pk": 1010,
            "fields": { 
              "priority": 1,
              "description": "",
@@ -219,7 +269,7 @@ campaignTrail_temp.answers_json = [
              "feedback": "Nick Xenephon hits back at you, labelling you 'out of touch' to the people of the State. Xenephon's party makes traction across the northern seats such as Playford and even Port Adelaide.",
              "global_effect": [201, -0.001], // format: [candidate pk, amount of global effect]
              "issue_effect": [103, 0.004, 0.03], // format: [issue, issue score, issue importance]
-             "description": "A vote fro SA Best is a vote for Steven Marshall and the Liberals who will privatise and sell off the assets of the state, and run back the progress our Government has made for the past 16 years. We must continue making the effort to bring back the trust of the people. Xenephon plays the political game for his own purposes."
+             "description": "A vote for SA Best is a vote for Steven Marshall and the Liberals who will privatise and sell off the assets of the state, and run back the progress our Government has made for the past 16 years. We must continue making the effort to bring back the trust of the people. Xenephon plays the political game for his own purposes."
            }
          },
 
@@ -240,10 +290,10 @@ campaignTrail_temp.answers_json = [
            "pk": 5014,
            "fields": {
              "question": 1004,
-             "feedback": ".",
+             "feedback": "Residents in the seats of Adelaide and Dunstan are fond of the project, despite the political play to build it through Marshall's seat, whom he accusses the project will never be delivered on time.",
              "global_effect": [201, -0.001], // format: [candidate pk, amount of global effect]
              "issue_effect": [103, 0.004, 0.03], // format: [issue, issue score, issue importance]
-             "description": "."
+             "description": "We'll put forth a new, dynamic extension to the Adelaide Tram Network. We'll expand the current Festival Thertre line into Norwood along The Parade and create a new 'North Adelaide Line' which will extend along O'Connell Street. It'll help reinvigorate businesses and help to attract more visitors and investment."
            }
          },
 
@@ -252,10 +302,10 @@ campaignTrail_temp.answers_json = [
            "pk": 5015,
            "fields": {
              "question": 1004,
-             "feedback": ".",
+             "feedback": "Residents near these level crossings are pleased, yet also a frustrated at the prospects of longer road works and additional delays. Despite the stab at the Federal Government, residents are pleased these level crossings are to go.",
              "global_effect": [201, -0.001], // format: [candidate pk, amount of global effect]
              "issue_effect": [103, 0.004, 0.03], // format: [issue, issue score, issue importance]
-             "description": "."
+             "description": "There are 7 dangernous level crossings in the city that need to go. If we are elected, we will work to remove them and replace them with an overpassing bridge. This will allow traffic to flow and won't disturb the trains running on the Gawler Route. This will be entirely funded by the State Treasury with no funds to come from the Federal Government."
            }
          },
 
@@ -264,6 +314,142 @@ campaignTrail_temp.answers_json = [
            "pk": 5016,
            "fields": {
              "question": 1004,
+             "feedback": "Local Grain Farmers in the area and the State's Mining Sector welcome this new plan, stating another port in the Spencer Gulf is long overdue. Yet cries of criticism on the Government's maritime record is under the scope by frontbencher Corey Wingard and a cost-benefit analysis from Nick Xenephon.",
+             "global_effect": [201, -0.001], // format: [candidate pk, amount of global effect]
+             "issue_effect": [103, 0.004, 0.03], // format: [issue, issue score, issue importance]
+             "description": "We'll focus on the $700 Million Deep Water Port project in the Spencer Gulf. This will create new local jobs and get the state economy booming in trade. The free market hasn't delivered the port we need for South Australia, so the Government is stepping up."
+           }
+         },
+
+         {
+           "model": "campaign_trail.answer",
+           "pk": 5017,
+           "fields": {
+             "question": 1005,
+             "feedback": "The Opposition still find ways to attack the Governments record on the issue of unemployment, stating their own plan will better assist South Australians to get into a Job through their own new initiatives.",
+             "global_effect": [201, -0.001], // format: [candidate pk, amount of global effect]
+             "issue_effect": [103, 0.004, 0.03], // format: [issue, issue score, issue importance]
+             "description": "We're putting forward $1.5 Billion jobs initiative and new grants which will allow us to co-invest with private enterprises in multiple sectors which are growing strongly to create sustainable long-term jobs. This is a plan that will get our state moving again."
+           }
+         },
+
+         {
+           "model": "campaign_trail.answer",
+           "pk": 5018,
+           "fields": {
+             "question": 1005,
+             "feedback": "Steven Marshall, and Nick Xenephon both blast your response, stating they both want to create 'strong jobs and not play politics' with people's livelyhoods. Many South Australians are in anguish over the lost jobs in the state and does not help the Governments credibility.",
+             "global_effect": [201, -0.001], // format: [candidate pk, amount of global effect]
+             "issue_effect": [103, 0.004, 0.03], // format: [issue, issue score, issue importance]
+             "description": "The Liberal Party or Nick Xenephon's SA BEST does not have the capacity, nor the nessesary policies to actually help South Australians get into a job property. The Liberals record is jobs being lost or privatised and SA Bests strategy is not being serious about the states future. So which avenue is it with these two partes?"
+           }
+         },
+    
+
+         {
+           "model": "campaign_trail.answer",
+           "pk": 5019,
+           "fields": {
+             "question": 1005,
+             "feedback": "The facts do not lie, as Steven Marshall attacks the record, having stated 'Labor has not been good for jobs and consequently more and more of our young kids are leaving South Australia when they finish school or finish university because they can't find a job.'",
+             "global_effect": [201, -0.001], // format: [candidate pk, amount of global effect]
+             "issue_effect": [103, 0.004, 0.03], // format: [issue, issue score, issue importance]
+             "description": "We've created 18,900 new jobs when I first became Premier, and we are working to create many more in response. Our Governments record has been about investing into the future. We have a strong job market here in the state, and we should continue to focus on our record of delivering South Australian Jobs."
+           }
+         },
+
+         
+         {
+           "model": "campaign_trail.answer",
+           "pk": 5020,
+           "fields": {
+             "question": 1006,
+             "feedback": "Many still remember the 2016 blackout, and are skeptical if additional solar farms and batteries will combat rising power prices. But it is a move that may just help Labor's chances to form Government again.",
+             "global_effect": [201, -0.001], // format: [candidate pk, amount of global effect]
+             "issue_effect": [103, 0.004, 0.03], // format: [issue, issue score, issue importance]
+             "description": "We are promising if we win Government again, we will install free Solar Panels as Tesla Batteries into 50,000 eligable homes across the state, with additional funding for hydro power and a new solar and battery farm. This will help keep costs low for South Australians, to have more reliable and affordable energy prices for consumers."
+           }
+         },
+
+         
+         {
+           "model": "campaign_trail.answer",
+           "pk": 5021,
+           "fields": {
+             "question": 1006,
+             "feedback": "The battery which was delivered continues to be a stable within the state, but still draws to the conclusion if it will work well if a blackout - like in 2016, was to occur again. But it does help retain the Governments credibility on the issue slightly.",
+             "global_effect": [201, -0.001], // format: [candidate pk, amount of global effect]
+             "issue_effect": [103, 0.004, 0.03], // format: [issue, issue score, issue importance]
+             "description": "We've got a strong record when it comes to dealing with power prices. Our Government has worked with Elon Musk's Tesla to deliver new, state of the art 100MW lithium-ion battery which has stabilized our power network from the 2016 blackout, becoming global benchmark for grid-scale battery storage."
+           }
+         },
+
+         
+         {
+           "model": "campaign_trail.answer",
+           "pk": 5022,
+           "fields": {
+             "question": 1006,
+             "feedback": "The Opposition has vowed to not privatise the Energy Sector of the state, but will continue to move forward on scrapping the renewable target. It's a sore point to attack for the Government. Many are still concerned over higher energy prices, and want action instead of political play.",
+             "global_effect": [201, -0.001], // format: [candidate pk, amount of global effect]
+             "issue_effect": [103, 0.004, 0.03], // format: [issue, issue score, issue importance]
+             "description": "How can we trust the Opposition to actually address the matter of dealing with power prices and energy in the state? Their solution is to privatise and sell off the assets to private corperations and scrapping the renewable target. It's not in the people's interest. Our Government has taken the steps to addressing the issue."
+           }
+         },
+
+         {
+           "model": "campaign_trail.answer",
+           "pk": 5023,
+           "fields": {
+             "question": 1007,
+             "feedback": "The Opposition still continue to attack the Government's record on Jobs and the issue of unemployment, accussing you of dismissing the issue which contiunues to plague the campaign.",
+             "global_effect": [201, -0.001], // format: [candidate pk, amount of global effect]
+             "issue_effect": [103, 0.004, 0.03], // format: [issue, issue score, issue importance]
+             "description": "Like I said, the jobs initiatives and grants will help the state unemployment rate fall and get more South Australians into a job and the workforce. It will grow the economy, it will get people into a secure position, and it will help people balance the household budget."
+           }
+         },
+
+         {
+           "model": "campaign_trail.answer",
+           "pk": 5024,
+           "fields": {
+             "question": 1007,
+             "feedback": "This does open the prospect of additional economic prospects for new job creation in the state. The Opposition continues to critique the costing of the project with current economic concerns dominating the campaign.",
+             "global_effect": [201, -0.001], // format: [candidate pk, amount of global effect]
+             "issue_effect": [103, 0.004, 0.03], // format: [issue, issue score, issue importance]
+             "description": "Our renewable energy programs will create new jobs across the state to deliver better infrastructure, and to help maintain our states power grid going into the future. This is what will get our state going, and will help with the job market to get more people to help maintain and work for the future of the state."
+           }
+         },
+
+         {
+           "model": "campaign_trail.answer",
+           "pk": 5025,
+           "fields": {
+             "question": 1007,
+             "feedback": "This goes well with more moderate voters, but see's pushback from the Green and SA Best to fund other sectors. Their candidates in Port Adelaide even go about the electorate pushing back against the plan to sway local residents.",
+             "global_effect": [201, -0.001], // format: [candidate pk, amount of global effect]
+             "issue_effect": [103, 0.004, 0.03], // format: [issue, issue score, issue importance]
+             "description": "South Australia is huge on defence, especially when it comes to our national security, developed here at the Osborne Shipyard. If re-elected, we'll pledge additional funding to boost state defence funding to bolster defence maufacturing at Osborne. We are the defence state, after all."
+           }
+         },
+
+         {
+           "model": "campaign_trail.answer",
+           "pk": 5026,
+           "fields": {
+             "question": 1007,
+             "feedback": "This goes over more younger voters, mainly those in trades quite well who are in TAFE courses, or looking to enter one. The States opposition plan does not do enjough to focus on getting more people into the workforce.",
+             "global_effect": [201, -0.001], // format: [candidate pk, amount of global effect]
+             "issue_effect": [103, 0.004, 0.03], // format: [issue, issue score, issue importance]
+             "description": "In our state, we have given younger peole the choice to either attend University or attend a TAFE course. We'll put additional funding into TAFE courses such as engineering and construction to get more people into the workforce and into the trades. You don't need to go to University to be successful when TAFE is also there."
+           }
+         },
+
+         {
+           "model": "campaign_trail.answer",
+           "pk": 5027,
+           "fields": {
+             "question": 1008,
              "feedback": ".",
              "global_effect": [201, -0.001], // format: [candidate pk, amount of global effect]
              "issue_effect": [103, 0.004, 0.03], // format: [issue, issue score, issue importance]
@@ -273,15 +459,76 @@ campaignTrail_temp.answers_json = [
 
          {
            "model": "campaign_trail.answer",
-           "pk": 5017,
+           "pk": 5028,
            "fields": {
-             "question": 1004,
+             "question": 1008,
              "feedback": ".",
              "global_effect": [201, -0.001], // format: [candidate pk, amount of global effect]
              "issue_effect": [103, 0.004, 0.03], // format: [issue, issue score, issue importance]
              "description": "."
            }
          },
+
+         {
+           "model": "campaign_trail.answer",
+           "pk": 5029,
+           "fields": {
+             "question": 1008,
+             "feedback": ".",
+             "global_effect": [201, -0.001], // format: [candidate pk, amount of global effect]
+             "issue_effect": [103, 0.004, 0.03], // format: [issue, issue score, issue importance]
+             "description": "."
+           }
+         },
+
+         {
+           "model": "campaign_trail.answer",
+           "pk": 5030,
+           "fields": {
+             "question": 1009,
+             "feedback": ".",
+             "global_effect": [201, -0.001], // format: [candidate pk, amount of global effect]
+             "issue_effect": [103, 0.004, 0.03], // format: [issue, issue score, issue importance]
+             "description": "."
+           }
+         },
+
+         {
+           "model": "campaign_trail.answer",
+           "pk": 5031,
+           "fields": {
+             "question": 1009,
+             "feedback": ".",
+             "global_effect": [201, -0.001], // format: [candidate pk, amount of global effect]
+             "issue_effect": [103, 0.004, 0.03], // format: [issue, issue score, issue importance]
+             "description": "."
+           }
+         },
+
+         {
+           "model": "campaign_trail.answer",
+           "pk": 5032,
+           "fields": {
+             "question": 1009,
+             "feedback": ".",
+             "global_effect": [201, -0.001], // format: [candidate pk, amount of global effect]
+             "issue_effect": [103, 0.004, 0.03], // format: [issue, issue score, issue importance]
+             "description": "."
+           }
+         },
+
+         {
+           "model": "campaign_trail.answer",
+           "pk": 5033,
+           "fields": {
+             "question": 1009,
+             "feedback": ".",
+             "global_effect": [201, -0.001], // format: [candidate pk, amount of global effect]
+             "issue_effect": [103, 0.004, 0.03], // format: [issue, issue score, issue importance]
+             "description": "."
+           }
+         },
+    
     
     
 ]
@@ -363,7 +610,7 @@ campaignTrail_temp.states_json = [
             "name": "Flinders",
             "abbr": "path2375",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 20498,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -377,7 +624,7 @@ campaignTrail_temp.states_json = [
             "name": "Frome",
             "abbr": "path2377",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 21417,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -391,7 +638,7 @@ campaignTrail_temp.states_json = [
             "name": "Giles",
             "abbr": "path2379",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 20204,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -405,7 +652,7 @@ campaignTrail_temp.states_json = [
             "name": "Stuart",
             "abbr": "path2381",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 20961,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -419,7 +666,7 @@ campaignTrail_temp.states_json = [
             "name": "Hammond",
             "abbr": "path2385",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 22904,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -433,7 +680,7 @@ campaignTrail_temp.states_json = [
             "name": "Chaffey",
             "abbr": "path2387",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 21531,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -447,7 +694,7 @@ campaignTrail_temp.states_json = [
             "name": "Mawson",
             "abbr": "path2389",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 22943,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -461,7 +708,7 @@ campaignTrail_temp.states_json = [
             "name": "Finniss",
             "abbr": "path2391",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 21985,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -475,7 +722,7 @@ campaignTrail_temp.states_json = [
             "name": "Heysen",
             "abbr": "path2393",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 23440,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -489,7 +736,7 @@ campaignTrail_temp.states_json = [
             "name": "Narungga",
             "abbr": "path2395",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 23030,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -503,7 +750,7 @@ campaignTrail_temp.states_json = [
             "name": "Schubert",
             "abbr": "path2397",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 24263,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -517,7 +764,7 @@ campaignTrail_temp.states_json = [
             "name": "Kaurna",
             "abbr": "path2399",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 23887,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -531,7 +778,7 @@ campaignTrail_temp.states_json = [
             "name": "Reynell",
             "abbr": "path2401",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 22095,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -545,7 +792,7 @@ campaignTrail_temp.states_json = [
             "name": "Hurtle Vale",
             "abbr": "path2403",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 24146,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -559,7 +806,7 @@ campaignTrail_temp.states_json = [
             "name": "Davenport",
             "abbr": "path2405",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 22894,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -573,7 +820,7 @@ campaignTrail_temp.states_json = [
             "name": "Waite",
             "abbr": "path2407",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 25181,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -587,7 +834,7 @@ campaignTrail_temp.states_json = [
             "name": "Elder",
             "abbr": "path2409",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 23991,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -601,7 +848,7 @@ campaignTrail_temp.states_json = [
             "name": "Badcoe",
             "abbr": "path2411",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 22287,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -615,7 +862,7 @@ campaignTrail_temp.states_json = [
             "name": "Morphett",
             "abbr": "path2413",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 23934,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -629,7 +876,7 @@ campaignTrail_temp.states_json = [
             "name": "Gibson",
             "abbr": "path2415",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 23573,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -643,7 +890,7 @@ campaignTrail_temp.states_json = [
             "name": "Black",
             "abbr": "path2417",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 25792,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -657,7 +904,7 @@ campaignTrail_temp.states_json = [
             "name": "Colton",
             "abbr": "path2419",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 25360,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -671,7 +918,7 @@ campaignTrail_temp.states_json = [
             "name": "West Torrens",
             "abbr": "path2421",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 23199,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -685,7 +932,7 @@ campaignTrail_temp.states_json = [
             "name": "Croydon",
             "abbr": "path2423",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 21741,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -699,7 +946,7 @@ campaignTrail_temp.states_json = [
             "name": "Cheltenham",
             "abbr": "path2425",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 23456,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -713,7 +960,7 @@ campaignTrail_temp.states_json = [
             "name": "Lee",
             "abbr": "path2427",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 24251,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -727,7 +974,7 @@ campaignTrail_temp.states_json = [
             "name": "Port Adelaide",
             "abbr": "path2429",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 25265,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -741,7 +988,7 @@ campaignTrail_temp.states_json = [
             "name": "Ramsey",
             "abbr": "path2431",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 23835,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -755,7 +1002,7 @@ campaignTrail_temp.states_json = [
             "name": "Playford",
             "abbr": "path2433",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 23531,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -769,7 +1016,7 @@ campaignTrail_temp.states_json = [
             "name": "Wright",
             "abbr": "path2435",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 24882,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -783,7 +1030,7 @@ campaignTrail_temp.states_json = [
             "name": "Florey",
             "abbr": "path2437",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 24338,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -797,7 +1044,7 @@ campaignTrail_temp.states_json = [
             "name": "Torrens",
             "abbr": "path2439",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 22701,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -811,7 +1058,7 @@ campaignTrail_temp.states_json = [
             "name": "Enfield",
             "abbr": "path2441",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 22710,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -825,7 +1072,7 @@ campaignTrail_temp.states_json = [
             "name": "Adelaide",
             "abbr": "path2443",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 22148,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -839,7 +1086,7 @@ campaignTrail_temp.states_json = [
             "name": "Dunstan",
             "abbr": "path2445",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 22994,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -853,7 +1100,7 @@ campaignTrail_temp.states_json = [
             "name": "Hartley",
             "abbr": "path2447",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 22384,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -867,7 +1114,7 @@ campaignTrail_temp.states_json = [
             "name": "Bragg",
             "abbr": "path2449",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 23620,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -881,7 +1128,7 @@ campaignTrail_temp.states_json = [
             "name": "Unley",
             "abbr": "path2451",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 24020,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -895,7 +1142,7 @@ campaignTrail_temp.states_json = [
             "name": "Kavel",
             "abbr": "path2453",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 22378,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -909,7 +1156,7 @@ campaignTrail_temp.states_json = [
             "name": "Morialta",
             "abbr": "path2455",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 24309,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -923,7 +1170,7 @@ campaignTrail_temp.states_json = [
             "name": "Newland",
             "abbr": "path2457",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 23931,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -937,7 +1184,7 @@ campaignTrail_temp.states_json = [
             "name": "King",
             "abbr": "path2459",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 25315,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -951,7 +1198,7 @@ campaignTrail_temp.states_json = [
             "name": "Elizabeth",
             "abbr": "path2461",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 24586,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -965,7 +1212,7 @@ campaignTrail_temp.states_json = [
             "name": "Light",
             "abbr": "path2463",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 23517,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -979,7 +1226,7 @@ campaignTrail_temp.states_json = [
             "name": "Taylor",
             "abbr": "path2465",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 23826,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -993,7 +1240,7 @@ campaignTrail_temp.states_json = [
             "name": "Mount Gambier",
             "abbr": "path2751",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 22746,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -1007,7 +1254,7 @@ campaignTrail_temp.states_json = [
             "name": "MacKillop",
             "abbr": "path2753",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 21585,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -1023,21 +1270,21 @@ campaignTrail_temp.issues_json = [
         "model": "campaign_trail.issue",
         "pk": 47,
         "fields": {
-            "name": "Privatizaton",
+            "name": "Renewable Energy",
             "description": "",
-            "stance_1": "Privatse all assets",
+            "stance_1": "Scale Back",
             "stance_desc_1": "",
-            "stance_2": "Moderate Privatising",
+            "stance_2": "Scale Back",
             "stance_desc_2": "",
-            "stance_3": "Not everything",
+            "stance_3": "Scale Back",
             "stance_desc_3": "",
             "stance_4": "Indifferent",
             "stance_desc_4": "",
-            "stance_5": "Opposses",
+            "stance_5": "Fund",
             "stance_desc_5": "",
-            "stance_6": "Strongly Opposses",
+            "stance_6": "Fund",
             "stance_desc_6": "",
-            "stance_7": "State Owned Assests",
+            "stance_7": "Funds",
             "stance_desc_7": "",
             "election": 13
         }
@@ -1048,19 +1295,19 @@ campaignTrail_temp.issues_json = [
         "fields": {
             "name": "Cost of Living",
             "description": "'",
-            "stance_1": "Opposes",
+            "stance_1": "Struggling",
             "stance_desc_1": "'",
-            "stance_2": "Opposes",
+            "stance_2": "Just Getting By",
             "stance_desc_2": "'",
-            "stance_3": "Opposes",
+            "stance_3": "Just Getting By",
             "stance_desc_3": "'",
-            "stance_4": "Moderate",
+            "stance_4": "Indifferent",
             "stance_desc_4": "'",
-            "stance_5": "Supports",
+            "stance_5": "Better Off",
             "stance_desc_5": "'",
-            "stance_6": "Supports",
+            "stance_6": "Better Off",
             "stance_desc_6": "'",
-            "stance_7": "Supports",
+            "stance_7": "Well Off",
             "stance_desc_7": "'",
             "election": 13
         }
@@ -1071,19 +1318,19 @@ campaignTrail_temp.issues_json = [
         "fields": {
             "name": "Health and Education",
             "description": "'",
-            "stance_1": "Nativist",
+            "stance_1": "Market Decides",
             "stance_desc_1": "'",
-            "stance_2": "Nativist",
+            "stance_2": "Private",
             "stance_desc_2": "'",
-            "stance_3": "Indifferent",
+            "stance_3": "Private",
             "stance_desc_3": "'",
-            "stance_4": "Indifferent",
+            "stance_4": "Balance",
             "stance_desc_4": "'",
-            "stance_5": "Indifferent",
+            "stance_5": "Public",
             "stance_desc_5": "'",
-            "stance_6": "Indifferent",
+            "stance_6": "Public",
             "stance_desc_6": "'",
-            "stance_7": "Indifferent",
+            "stance_7": "State Owned",
             "stance_desc_7": "'",
             "election": 13
         }
@@ -1092,21 +1339,21 @@ campaignTrail_temp.issues_json = [
         "model": "campaign_trail.issue",
         "pk": 50,
         "fields": {
-            "name": "The Economy",
+            "name": "Government Approval",
             "description": "'",
-            "stance_1": "Opposes",
+            "stance_1": "Strongly Disapproves",
             "stance_desc_1": "'",
-            "stance_2": "Opposes",
+            "stance_2": "Disapproves",
             "stance_desc_2": "'",
-            "stance_3": "Opposes",
+            "stance_3": "Slightly Disapproves",
             "stance_desc_3": "'",
-            "stance_4": "Moderate",
+            "stance_4": "No Different",
             "stance_desc_4": "'",
-            "stance_5": "Supports",
+            "stance_5": "Slightly Approves",
             "stance_desc_5": "'",
-            "stance_6": "Supports",
+            "stance_6": "Approves",
             "stance_desc_6": "'",
-            "stance_7": "Supports",
+            "stance_7": "Strongly Approves",
             "stance_desc_7": "'",
             "election": 13
         }
@@ -1117,19 +1364,19 @@ campaignTrail_temp.issues_json = [
         "fields": {
             "name": "State Infrastructure",
             "description": "'",
-            "stance_1": "Supports",
+            "stance_1": "Collapsing",
             "stance_desc_1": "'",
-            "stance_2": "Supports",
+            "stance_2": "Poor",
             "stance_desc_2": "'",
-            "stance_3": "Supports",
+            "stance_3": "Needs Funding",
             "stance_desc_3": "'",
-            "stance_4": "Moderate",
+            "stance_4": "No Different",
             "stance_desc_4": "'",
-            "stance_5": "Moderate",
+            "stance_5": "Well Off",
             "stance_desc_5": "'",
-            "stance_6": "No Expansion",
+            "stance_6": "Well Off",
             "stance_desc_6": "'",
-            "stance_7": "Abolitionist",
+            "stance_7": "Well Off",
             "stance_desc_7": "'",
             "election": 13
         }
